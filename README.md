@@ -1,5 +1,5 @@
 
-README Reto ViajesTransparentes
+README Descubriendo Tu Ruta
 ============
 
 Este README es una plantilla y conjunto de recomendaciones que ayudan a estructurar un proyecto antes de enviarlo como propuesta al Reto.
