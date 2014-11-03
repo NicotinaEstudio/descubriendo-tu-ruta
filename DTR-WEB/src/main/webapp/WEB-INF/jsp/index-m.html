@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="" lang="es">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPPIR by Nocotina Estudio</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mappir.css">
+</head>
+<body>
+    <div id="mapa" style="width:100%; height:100%"></div>
+    <menu id="menu-lateral">
+        <img src="img/logo_sct.png" />
+        <h1>Descubre tu Ruta</h1>
+        <section id="perfil">
+            <img src="img/perfil.png" />
+            <div>
+                <img src="img/stars.png" />
+            </div>
+            <menu id="mnu-perfil">
+                <ul>
+                    <li><img src="img/iconos/ico_estrella.png" /></li>
+                    <li><img src="img/iconos/ico_corazon.png" /></li>
+                    <li><img src="img/iconos/ico_telefono.png" /></li>
+                    <li><img src="img/iconos/ico_audifono.png" /></li>
+                    <li data-toggle="modal" data-target="#myModal"><img src="img/iconos/ico_x.png" /></li>
+                    <li><img src="img/iconos/ico_salir.png" /></li>
+                </ul>
+            </menu>
+        </section>
+        <section id="ruta-sugerida">
+            <div id="ruta-sugerida-top">
+                <p>Ruta sugerida:</p>
+            </div>
+            <div class="ruta-sugerida-seccion text-left">
+                <div class="poi">
+                    <dl class="dl-poi">
+                        <dt>Origen:</dt>
+                        <dd>Morelia, Michocacán de Ocampo <img src="img/iconos/ico_flecha.png" /></dd>
+                        <dt>Destino:</dt>
+                        <dd>Patzcuaro, Michocacán de Ocampo <img src="img/iconos/ico_flecha.png" /></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="ruta-sugerida-seccion">
+                <div id="ruta-sugerida-resumen">
+                    <div class="ruta-sugerida-resumen-concepto">
+                        <img src="img/iconos/ico_tiempo.png" />
+                        <h4>Tiempo</h4>
+                        <p>47 min</p>
+                    </div>
+                    <div class="ruta-sugerida-resumen-concepto">
+                        <img src="img/iconos/ico_localizacion.png" />
+                        <h4>Distancia</h4>
+                        <p>54 Km</p>
+                    </div>
+                    <div class="ruta-sugerida-resumen-concepto">
+                        <img src="img/iconos/ico_caseta.png" />
+                        <h4>Casetas</h4>
+                        <p>$0 MXN</p>
+                    </div>
+                    <div class="ruta-sugerida-resumen-concepto">
+                        <img src="img/iconos/ico_gasolina.png" />
+                        <h4>Combustible</h4>
+                        <p>$42.59 MXN</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div>Costo Total: <span id="gran-total">$42.59 MXN</span></div>
+                <p>Costos aproximados para:</p>
+                <p>Auto chico, rendimiento: 16 km/lt, sin pasajes, sin incidentes.</p>
+            </div>
+            <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                          + DETALLES
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <div class="ruta-sugerida-seccion">
+                                <table class="table">
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Estado</th>
+                                        <th>Km</th>
+                                        <th>Caseta</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Morelia - La huerta</td>
+                                        <td>Mich.</td>
+                                        <td>18.100</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Morelia - La huerta</td>
+                                        <td>Mich.</td>
+                                        <td>18.100</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Morelia - La huerta</td>
+                                        <td>Mich.</td>
+                                        <td>18.100</td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+    </menu>
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">NUEVA RUTA</h4>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="cincuenta-por-ciento">
+                    Desde: <input type="text" id="txt-desde"> <br> <br>
+                    Hasta: <input type="text" id="txt-hasta"> <br> <br>
+                </div>
+                <div class="cincuenta-por-ciento">
+                    Vehiculo: <select id="cbx-vehiculo"></select><br> <br>
+                    Ejes: 
+                    <select id="cbx-ejes">
+                        <option value="0">Sin Ejes Excedentes</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select><br> <br>
+                    Rendimiento: <select id="cbx-rendimiento"></select> <br> <br>
+                    Combustible: <select id="cbx-combustible"></select> <br> <br>	
+                </div>
+        </form>
+          <div class="clearfix"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button id='btn-buscar-ruta' type="button" class="btn btn-primary">Buscar Ruta</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDIo2urS4W_mmgF0xYMNWQcrDowJ-aFsaI&sensor=FALSE"></script>
+    <script type="text/javascript" src="js/jquery/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mappir/mappir.js"></script>
+</body>
+</html>

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D5DA8D8104647998CBE1F8E /* libPods-DescubriendoTuRuta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E24CE7B60B744FEB8F162985 /* libPods-DescubriendoTuRuta.a */; };
+		D6259F111A000E8300CA04FD /* RutasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6259F101A000E8300CA04FD /* RutasTableViewController.m */; };
+		D6259F141A00101300CA04FD /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6259F131A00101300CA04FD /* MapaViewController.m */; };
+		D6259F171A00174A00CA04FD /* FotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6259F161A00174A00CA04FD /* FotosCollectionViewController.m */; };
+		D635E53319ECD9DB00477F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D635E53219ECD9DB00477F2D /* main.m */; };
+		D635E53619ECD9DB00477F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D635E53519ECD9DB00477F2D /* AppDelegate.m */; };
+		D635E53919ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D635E53719ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodeld */; };
+		D635E53C19ECD9DB00477F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D635E53B19ECD9DB00477F2D /* ViewController.m */; };
+		D635E53F19ECD9DB00477F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D635E53D19ECD9DB00477F2D /* Main.storyboard */; };
+		D635E54119ECD9DB00477F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D635E54019ECD9DB00477F2D /* Images.xcassets */; };
+		D635E54419ECD9DB00477F2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D635E54219ECD9DB00477F2D /* LaunchScreen.xib */; };
+		D635E55019ECD9DB00477F2D /* DescubriendoTuRutaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D635E54F19ECD9DB00477F2D /* DescubriendoTuRutaTests.m */; };
+		D677F7131A00270800171F22 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D677F7121A00270800171F22 /* NibCell.xib */; };
+		D6BAA7CA1A030EAD00744474 /* MisRutasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BAA7C91A030EAD00744474 /* MisRutasViewController.m */; };
+		D6BAA7CD1A030FA900744474 /* Constantes.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BAA7CC1A030FA900744474 /* Constantes.m */; };
+		D6BAA7D01A03135700744474 /* SubirFotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BAA7CF1A03135700744474 /* SubirFotoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D635E54A19ECD9DB00477F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D635E52519ECD9DB00477F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D635E52C19ECD9DB00477F2D;
+			remoteInfo = DescubriendoTuRuta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EC489B43EA95A56E94A5AE2 /* Pods-DescubriendoTuRuta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescubriendoTuRuta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DescubriendoTuRuta/Pods-DescubriendoTuRuta.debug.xcconfig"; sourceTree = "<group>"; };
+		D6259F0F1A000E8300CA04FD /* RutasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RutasTableViewController.h; sourceTree = "<group>"; };
+		D6259F101A000E8300CA04FD /* RutasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RutasTableViewController.m; sourceTree = "<group>"; };
+		D6259F121A00101300CA04FD /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		D6259F131A00101300CA04FD /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
+		D6259F151A00174A00CA04FD /* FotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotosCollectionViewController.h; sourceTree = "<group>"; };
+		D6259F161A00174A00CA04FD /* FotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotosCollectionViewController.m; sourceTree = "<group>"; };
+		D635E52D19ECD9DB00477F2D /* DescubriendoTuRuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DescubriendoTuRuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D635E53119ECD9DB00477F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D635E53219ECD9DB00477F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D635E53419ECD9DB00477F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D635E53519ECD9DB00477F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D635E53819ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DescubriendoTuRuta.xcdatamodel; sourceTree = "<group>"; };
+		D635E53A19ECD9DB00477F2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D635E53B19ECD9DB00477F2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D635E53E19ECD9DB00477F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D635E54019ECD9DB00477F2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D635E54319ECD9DB00477F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D635E54919ECD9DB00477F2D /* DescubriendoTuRutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DescubriendoTuRutaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D635E54E19ECD9DB00477F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D635E54F19ECD9DB00477F2D /* DescubriendoTuRutaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescubriendoTuRutaTests.m; sourceTree = "<group>"; };
+		D677F7121A00270800171F22 /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
+		D6BAA7C81A030EAD00744474 /* MisRutasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisRutasViewController.h; sourceTree = "<group>"; };
+		D6BAA7C91A030EAD00744474 /* MisRutasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisRutasViewController.m; sourceTree = "<group>"; };
+		D6BAA7CB1A030FA900744474 /* Constantes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constantes.h; sourceTree = "<group>"; };
+		D6BAA7CC1A030FA900744474 /* Constantes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constantes.m; sourceTree = "<group>"; };
+		D6BAA7CE1A03135700744474 /* SubirFotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubirFotoViewController.h; sourceTree = "<group>"; };
+		D6BAA7CF1A03135700744474 /* SubirFotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubirFotoViewController.m; sourceTree = "<group>"; };
+		E24CE7B60B744FEB8F162985 /* libPods-DescubriendoTuRuta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DescubriendoTuRuta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8175C5BC2DAE37971B933A /* Pods-DescubriendoTuRuta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescubriendoTuRuta.release.xcconfig"; path = "Pods/Target Support Files/Pods-DescubriendoTuRuta/Pods-DescubriendoTuRuta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D635E52A19ECD9DB00477F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5DA8D8104647998CBE1F8E /* libPods-DescubriendoTuRuta.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D635E54619ECD9DB00477F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3569F9EB9B7EE756403BD7A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EC489B43EA95A56E94A5AE2 /* Pods-DescubriendoTuRuta.debug.xcconfig */,
+				EE8175C5BC2DAE37971B933A /* Pods-DescubriendoTuRuta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D635E52419ECD9DB00477F2D = {
+			isa = PBXGroup;
+			children = (
+				D635E52F19ECD9DB00477F2D /* DescubriendoTuRuta */,
+				D635E54C19ECD9DB00477F2D /* DescubriendoTuRutaTests */,
+				D635E52E19ECD9DB00477F2D /* Products */,
+				E1ED367FE5684E24A966A187 /* Frameworks */,
+				3569F9EB9B7EE756403BD7A2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D635E52E19ECD9DB00477F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D635E52D19ECD9DB00477F2D /* DescubriendoTuRuta.app */,
+				D635E54919ECD9DB00477F2D /* DescubriendoTuRutaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D635E52F19ECD9DB00477F2D /* DescubriendoTuRuta */ = {
+			isa = PBXGroup;
+			children = (
+				D635E53A19ECD9DB00477F2D /* ViewController.h */,
+				D635E53B19ECD9DB00477F2D /* ViewController.m */,
+				D6259F0F1A000E8300CA04FD /* RutasTableViewController.h */,
+				D6259F101A000E8300CA04FD /* RutasTableViewController.m */,
+				D6259F121A00101300CA04FD /* MapaViewController.h */,
+				D6259F131A00101300CA04FD /* MapaViewController.m */,
+				D6259F151A00174A00CA04FD /* FotosCollectionViewController.h */,
+				D6259F161A00174A00CA04FD /* FotosCollectionViewController.m */,
+				D6BAA7C81A030EAD00744474 /* MisRutasViewController.h */,
+				D6BAA7C91A030EAD00744474 /* MisRutasViewController.m */,
+				D6BAA7CE1A03135700744474 /* SubirFotoViewController.h */,
+				D6BAA7CF1A03135700744474 /* SubirFotoViewController.m */,
+				D635E53D19ECD9DB00477F2D /* Main.storyboard */,
+				D635E54019ECD9DB00477F2D /* Images.xcassets */,
+				D635E54219ECD9DB00477F2D /* LaunchScreen.xib */,
+				D635E53719ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodeld */,
+				D635E53019ECD9DB00477F2D /* Supporting Files */,
+				D677F7121A00270800171F22 /* NibCell.xib */,
+			);
+			path = DescubriendoTuRuta;
+			sourceTree = "<group>";
+		};
+		D635E53019ECD9DB00477F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BAA7CB1A030FA900744474 /* Constantes.h */,
+				D6BAA7CC1A030FA900744474 /* Constantes.m */,
+				D635E53419ECD9DB00477F2D /* AppDelegate.h */,
+				D635E53519ECD9DB00477F2D /* AppDelegate.m */,
+				D635E53119ECD9DB00477F2D /* Info.plist */,
+				D635E53219ECD9DB00477F2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D635E54C19ECD9DB00477F2D /* DescubriendoTuRutaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D635E54F19ECD9DB00477F2D /* DescubriendoTuRutaTests.m */,
+				D635E54D19ECD9DB00477F2D /* Supporting Files */,
+			);
+			path = DescubriendoTuRutaTests;
+			sourceTree = "<group>";
+		};
+		D635E54D19ECD9DB00477F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D635E54E19ECD9DB00477F2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1ED367FE5684E24A966A187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E24CE7B60B744FEB8F162985 /* libPods-DescubriendoTuRuta.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D635E52C19ECD9DB00477F2D /* DescubriendoTuRuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D635E55319ECD9DB00477F2D /* Build configuration list for PBXNativeTarget "DescubriendoTuRuta" */;
+			buildPhases = (
+				FAAADC7AA941496081B54F02 /* Check Pods Manifest.lock */,
+				D635E52919ECD9DB00477F2D /* Sources */,
+				D635E52A19ECD9DB00477F2D /* Frameworks */,
+				D635E52B19ECD9DB00477F2D /* Resources */,
+				F199B8E5E01B4D7C877C9981 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DescubriendoTuRuta;
+			productName = DescubriendoTuRuta;
+			productReference = D635E52D19ECD9DB00477F2D /* DescubriendoTuRuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D635E54819ECD9DB00477F2D /* DescubriendoTuRutaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D635E55619ECD9DB00477F2D /* Build configuration list for PBXNativeTarget "DescubriendoTuRutaTests" */;
+			buildPhases = (
+				D635E54519ECD9DB00477F2D /* Sources */,
+				D635E54619ECD9DB00477F2D /* Frameworks */,
+				D635E54719ECD9DB00477F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D635E54B19ECD9DB00477F2D /* PBXTargetDependency */,
+			);
+			name = DescubriendoTuRutaTests;
+			productName = DescubriendoTuRutaTests;
+			productReference = D635E54919ECD9DB00477F2D /* DescubriendoTuRutaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D635E52519ECD9DB00477F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nicotina Estudio";
+				TargetAttributes = {
+					D635E52C19ECD9DB00477F2D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D635E54819ECD9DB00477F2D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D635E52C19ECD9DB00477F2D;
+					};
+				};
+			};
+			buildConfigurationList = D635E52819ECD9DB00477F2D /* Build configuration list for PBXProject "DescubriendoTuRuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D635E52419ECD9DB00477F2D;
+			productRefGroup = D635E52E19ECD9DB00477F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D635E52C19ECD9DB00477F2D /* DescubriendoTuRuta */,
+				D635E54819ECD9DB00477F2D /* DescubriendoTuRutaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D635E52B19ECD9DB00477F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D635E53F19ECD9DB00477F2D /* Main.storyboard in Resources */,
+				D677F7131A00270800171F22 /* NibCell.xib in Resources */,
+				D635E54419ECD9DB00477F2D /* LaunchScreen.xib in Resources */,
+				D635E54119ECD9DB00477F2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D635E54719ECD9DB00477F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F199B8E5E01B4D7C877C9981 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DescubriendoTuRuta/Pods-DescubriendoTuRuta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAAADC7AA941496081B54F02 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D635E52919ECD9DB00477F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6259F171A00174A00CA04FD /* FotosCollectionViewController.m in Sources */,
+				D6BAA7D01A03135700744474 /* SubirFotoViewController.m in Sources */,
+				D6259F111A000E8300CA04FD /* RutasTableViewController.m in Sources */,
+				D635E53619ECD9DB00477F2D /* AppDelegate.m in Sources */,
+				D635E53919ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodeld in Sources */,
+				D6BAA7CD1A030FA900744474 /* Constantes.m in Sources */,
+				D6BAA7CA1A030EAD00744474 /* MisRutasViewController.m in Sources */,
+				D635E53C19ECD9DB00477F2D /* ViewController.m in Sources */,
+				D635E53319ECD9DB00477F2D /* main.m in Sources */,
+				D6259F141A00101300CA04FD /* MapaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D635E54519ECD9DB00477F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D635E55019ECD9DB00477F2D /* DescubriendoTuRutaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D635E54B19ECD9DB00477F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D635E52C19ECD9DB00477F2D /* DescubriendoTuRuta */;
+			targetProxy = D635E54A19ECD9DB00477F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D635E53D19ECD9DB00477F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D635E53E19ECD9DB00477F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D635E54219ECD9DB00477F2D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D635E54319ECD9DB00477F2D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D635E55119ECD9DB00477F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D635E55219ECD9DB00477F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D635E55419ECD9DB00477F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC489B43EA95A56E94A5AE2 /* Pods-DescubriendoTuRuta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DescubriendoTuRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D635E55519ECD9DB00477F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8175C5BC2DAE37971B933A /* Pods-DescubriendoTuRuta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DescubriendoTuRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D635E55719ECD9DB00477F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DescubriendoTuRutaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DescubriendoTuRuta.app/DescubriendoTuRuta";
+			};
+			name = Debug;
+		};
+		D635E55819ECD9DB00477F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DescubriendoTuRutaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DescubriendoTuRuta.app/DescubriendoTuRuta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D635E52819ECD9DB00477F2D /* Build configuration list for PBXProject "DescubriendoTuRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D635E55119ECD9DB00477F2D /* Debug */,
+				D635E55219ECD9DB00477F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D635E55319ECD9DB00477F2D /* Build configuration list for PBXNativeTarget "DescubriendoTuRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D635E55419ECD9DB00477F2D /* Debug */,
+				D635E55519ECD9DB00477F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D635E55619ECD9DB00477F2D /* Build configuration list for PBXNativeTarget "DescubriendoTuRutaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D635E55719ECD9DB00477F2D /* Debug */,
+				D635E55819ECD9DB00477F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D635E53719ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D635E53819ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodel */,
+			);
+			currentVersion = D635E53819ECD9DB00477F2D /* DescubriendoTuRuta.xcdatamodel */;
+			path = DescubriendoTuRuta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D635E52519ECD9DB00477F2D /* Project object */;
+}

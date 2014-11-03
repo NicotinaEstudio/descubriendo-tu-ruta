@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
+</head>
+<body>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			//localizacion();
+			ruta();
+		});
+
+		function localizacion() {
+			$.ajax({
+				url : 'https://dtr.azurewebsites.net/api/geosearchlocationsvt',
+				type : 'POST',
+				dataType : "jsonp",
+				contentType : "application/json",
+				crossDomain : true,
+				data : {
+					search : 'morelia',
+					usr : 'sct',
+					key : 'sct'
+				},
+				success : function(data) {
+					console.log(data);
+				},
+				error : function(xhr, textStatus, errorThrown) {
+					console.log(textStatus);
+				}
+			});
+		}
+
+		function ruta() {
+
+			var origen, destinos, opciones, vehiculo;
+
+			origen = {
+				"x" : -99.1867,
+				"y" : 19.3087,
+				"source" : -1,
+				"target" : -1,
+				"desc" : "Insurgentes Sur, Insurgentes Cuicuilco, Coyoacán, Coyoacán, Distrito Federal",
+				"idTramo" : 1,
+				"idCategoria" : "A-9"
+			};
+
+			destinos = [ {
+				"x" : -100.386986,
+				"y" : 20.589804,
+				"source" : 756319,
+				"target" : 750929,
+				"desc" : "Querétaro",
+				"idTramo" : 3086642,
+				"idCategoria" : "A-1"
+			}, {
+				"x" : -103.335,
+				"y" : 20.6782,
+				"source" : 495851,
+				"target" : 495852,
+				"desc" : "Guadalajara, Jalisco",
+				"idTramo" : 2688371,
+				"idCategoria" : "A-2"
+			} ];
+
+			opciones = {
+				casetas : true,
+				alertas : false
+			};
+
+			vehiculo = {
+				tipo : 1,
+				subtipo : 1,
+				excedente : 1,
+				rendimiento : 17.0,
+				costoltgas : 12.0
+			};
+
+			$.ajax({
+				type : 'POST',
+				url : 'https://dtr.azurewebsites.net/api/georoutesvt',
+				data : {
+					"json" : JSON.stringify({
+						"usr" : "sct",
+						"key" : "sct",
+						"origen" : origen,
+						"destinos" : destinos,
+						"ruta" : 1,
+						"opciones" : opciones,
+						"vehiculo" : vehiculo
+					})
+				},
+				contentType : 'application/json',
+				dataType : 'jsonp',
+				success : function(resp) {
+					console.log("Resp", resp);
+				},
+				error : function(jqXHR, textStatus, errorThrown) {
+					if (textStatus != "abort") {
+						console.log(textStatus);
+					}
+				}
+			});
+		}
+	</script>
+</body>
+</html>
