@@ -16,10 +16,10 @@
 #import "Constantes.h"
 
 // TODO: Get the following Cognito constants via Cognito Console
-NSString *const AWSAccountID = @"510874473233";
-NSString *const CognitoPoolID = @"us-east-1:f39979a1-76b4-4094-82ca-d808808a348a";
+NSString *const AWSAccountID = @"AWS-NOS-PROHIBE-TENERLA-EN-LINEA";
+NSString *const CognitoPoolID = @"AWS-NOS-PROHIBE-TENERLA-EN-LINEA";
 NSString *const CognitoRoleAuth = nil;
-NSString *const CognitoRoleUnauth = @"arn:aws:iam::510874473233:role/Cognito_DescubriendoTuRutaUnauth_DefaultRole";
+NSString *const CognitoRoleUnauth = @"AWS-NOS-PROHIBE-TENERLA-EN-LINEA";
 
 NSString *const S3BucketName = @"descubriendo-tu-ruta";
 
