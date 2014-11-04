@@ -45,7 +45,9 @@ Como todas las dependencias se encuentran en el archívo pom.xml solo se requier
 - Publicar hacia la APP ($git push heroku master)
 
 ##Screenshots
-![alt tag](#)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/dtr-2.jpg)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/dtr-1.jpg)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/dtr-3.jpg)
 
 ##Demo
 - [http://descubriendo-tu-ruta.herokuapp.com](http://descubriendo-tu-ruta.herokuapp.com)
